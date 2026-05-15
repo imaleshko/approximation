@@ -48,3 +48,10 @@
 .activeButton {
   background-color: #e0e0e0;
 }
+
+.plot {
+  margin: 40px auto 0;
+  width: 90%;
+  max-width: 1000px;
+  height: 600px;
+}
