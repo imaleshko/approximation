@@ -1,0 +1,50 @@
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.topSection {
+  border: var(--border);
+  border-radius: 20px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.optionsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: var(--border);
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.activeButton {
+  background-color: #e0e0e0;
+}
